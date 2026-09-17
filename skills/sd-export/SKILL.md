@@ -173,8 +173,8 @@ python {SKILL_DIR}/scripts/push_to_zotero.py --json "{JSON_FILE_PATH}"
   "pages": "109460",
   "abstract": "...",
   "keywords": ["keyword1", "keyword2"],
-  "url": "https://www.sciencedirect.com/science/article/pii/{PII}",
-  "pdfUrl": "https://www.sciencedirect.com/..../pdfft?md5=...&pid=...",
+  "url": "https://www-sciencedirect-com-s-2.proxy.itic-sci.com/science/article/pii/{PII}",
+  "pdfUrl": "https://www-sciencedirect-com-s-2.proxy.itic-sci.com/..../pdfft?md5=...&pid=...",
   "cookies": "cf_clearance=...; JSESSIONID=..."
 }
 ```

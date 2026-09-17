@@ -11,7 +11,7 @@ Search for academic papers on ScienceDirect using Chrome DevTools MCP.
 ## Important: Determine the ScienceDirect base URL
 
 Before the first operation, check the current browser page URL to determine which ScienceDirect domain the user is accessing. Store it as `BASE_URL`. Common patterns:
-- Direct access: `https://www.sciencedirect.com`
+- Direct access: `https://www-sciencedirect-com-s-2.proxy.itic-sci.com`
 - Institutional proxy: URL containing `sciencedirect` in the hostname (e.g. WebVPN or EZProxy)
 
 Use whatever origin the user's browser is currently on. If no ScienceDirect page is open, ask the user which URL to use.

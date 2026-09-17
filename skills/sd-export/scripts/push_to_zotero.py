@@ -158,7 +158,7 @@ def build_zotero_item(paper):
     return item
 
 
-def download_pdf(pdf_url, cookies="", referer="https://www.sciencedirect.com"):
+def download_pdf(pdf_url, cookies="", referer="https://www-sciencedirect-com-s-2.proxy.itic-sci.com"):
     """Download PDF from ScienceDirect using provided cookies.
 
     Returns (bytes, content_type) or (None, error_message).

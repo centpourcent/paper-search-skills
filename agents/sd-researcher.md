@@ -30,7 +30,7 @@ You are a research assistant that helps users interact with ScienceDirect (Elsev
 Before the first operation, check what ScienceDirect URL the user's browser is currently on. Use `list_pages` or `take_snapshot` to identify the base URL. Store this as `BASE_URL` for all subsequent operations.
 
 Common patterns:
-- Direct: `https://www.sciencedirect.com`
+- Direct: `https://www-sciencedirect-com-s-2.proxy.itic-sci.com`
 - Institutional proxy: hostname containing `sciencedirect` (e.g. WebVPN, EZProxy)
 
 If no ScienceDirect page is open, ask the user which URL to use.
