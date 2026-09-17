@@ -10,7 +10,7 @@ Extract structured paper data from the current CNKI search results page.
 
 ## Prerequisites
 
-The current Chrome page must be a CNKI search results page (URL contains `kns.cnki.net` and page shows "条结果").
+The current Chrome page must be a CNKI search results page (URL contains `kns-cnki-net-s-17.proxy.itic-sci.com` and page shows "条结果").
 
 ## Steps
 
@@ -87,7 +87,7 @@ CNKI search results ({totalCount} total, page {pageInfo}):
 If JavaScript returns empty (DOM structure changed), use `mcp__chrome-devtools__take_snapshot` and parse the accessibility tree manually:
 
 Look for the repeating pattern:
-- `checkbox` → `StaticText` (number) → `link` with URL containing `kcms2/article/abstract` (title) → `link`s with URL containing `kcms2/author/detail` (authors) → `link` with URL containing `navi.cnki.net/knavi/detail` (journal) → `StaticText` (date) → `StaticText` (database type)
+- `checkbox` → `StaticText` (number) → `link` with URL containing `kcms2/article/abstract` (title) → `link`s with URL containing `kcms2/author/detail` (authors) → `link` with URL containing `navi-cnki-net-s-17.proxy.itic-sci.com/knavi/detail` (journal) → `StaticText` (date) → `StaticText` (database type)
 
 ## Verified DOM Selectors (CNKI uses jQuery, stable semantic class names)
 

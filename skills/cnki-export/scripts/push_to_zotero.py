@@ -136,7 +136,7 @@ def build_zotero_item(paper):
     dbname = paper.get('dbname', '')
     filename = paper.get('filename', '')
     if dbcode and dbname and filename:
-        item['url'] = f'https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode={dbcode}&dbname={dbname}&filename={filename}'
+        item['url'] = f'https://kns-cnki-net-s-17.proxy.itic-sci.com/KCMS/detail/detail.aspx?dbcode={dbcode}&dbname={dbname}&filename={filename}'
     elif paper.get('link'):
         item['url'] = paper['link']
 
@@ -175,7 +175,7 @@ def build_zotero_item(paper):
     return item
 
 
-def download_pdf(pdf_url, cookies='', referer='https://kns.cnki.net'):
+def download_pdf(pdf_url, cookies='', referer='https://kns-cnki-net-s-17.proxy.itic-sci.com'):
     """Download PDF from CNKI using provided cookies. Returns (bytes, content_type) or (None, error)."""
     req = urllib.request.Request(pdf_url, headers={
         'Cookie': cookies,

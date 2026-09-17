@@ -23,7 +23,7 @@ Perform a filtered search on CNKI using the **old-style** advanced search interf
 
 ### 1. Navigate
 
-Use `mcp__chrome-devtools__navigate_page` → `https://kns.cnki.net/kns/AdvSearch?classid=7NS01R8M`
+Use `mcp__chrome-devtools__navigate_page` → `https://kns-cnki-net-s-17.proxy.itic-sci.com/kns/AdvSearch?classid=7NS01R8M`
 
 ### 2. Search + get results (single async evaluate_script)
 
@@ -182,6 +182,6 @@ Check `#tcaptcha_transform_dy` element's `getBoundingClientRect().top >= 0`.
 
 ## Important Notes
 
-- **Must use old-style URL** (`kns.cnki.net/kns/AdvSearch`). New interface (`kns8s/AdvSearch`) has NO source category checkboxes.
+- **Must use old-style URL** (`kns-cnki-net-s-17.proxy.itic-sci.com/kns/AdvSearch`). New interface (`kns8s/AdvSearch`) has NO source category checkboxes.
 - The `classid=7NS01R8M` parameter ensures the correct form layout loads.
 - Results page is compatible with `cnki-parse-results` and `cnki-navigate-pages` skills.

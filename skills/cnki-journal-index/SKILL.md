@@ -12,7 +12,7 @@ Check which databases index a journal and extract evaluation metrics from its CN
 
 `$ARGUMENTS` is either:
 - A journal name (will search first, then navigate to detail)
-- A CNKI journal detail URL (containing `navi.cnki.net/knavi/detail`)
+- A CNKI journal detail URL (containing `navi-cnki-net-s-17.proxy.itic-sci.com/knavi/detail`)
 
 ## Steps
 
@@ -23,7 +23,7 @@ Check which databases index a journal and extract evaluation metrics from its CN
 - Use `mcp__chrome-devtools__wait_for` with text `["该刊被以下数据库收录"]` and timeout 15000.
 
 **If journal name provided:** Search first.
-- Navigate to `https://navi.cnki.net/knavi`
+- Navigate to `https://navi-cnki-net-s-17.proxy.itic-sci.com/knavi`
 - Search for the journal (same as cnki-journal-search steps 2-4)
 - Click the first matching journal title link
 - Use `mcp__chrome-devtools__list_pages` to find and select the new detail tab
@@ -132,7 +132,7 @@ If the user wants detailed evaluation data:
 
 ## Verified Page Structure
 
-The journal detail page (`navi.cnki.net/knavi/detail`) has:
+The journal detail page (`navi-cnki-net-s-17.proxy.itic-sci.com/knavi/detail`) has:
 
 | Data                  | Location                                    |
 |-----------------------|---------------------------------------------|

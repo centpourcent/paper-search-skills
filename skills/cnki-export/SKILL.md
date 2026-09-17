@@ -74,7 +74,7 @@ Use `mcp__chrome-devtools__evaluate_script`:
 
 ```javascript
 async () => {
-  const API_URL = 'https://kns.cnki.net/dm8/API/GetExport';
+  const API_URL = 'https://kns-cnki-net-s-17.proxy.itic-sci.com/dm8/API/GetExport';
 
   // Get all checkbox values (= export encrypted IDs)
   const checkboxes = document.querySelectorAll('.result-table-list tbody input.cbItem');
@@ -161,7 +161,7 @@ Batch:
 
 | Parameter | Value | Source |
 |-----------|-------|--------|
-| API URL | `https://kns.cnki.net/dm8/API/GetExport` | Fixed, works from any page |
+| API URL | `https://kns-cnki-net-s-17.proxy.itic-sci.com/dm8/API/GetExport` | Fixed, works from any page |
 | filename | Encrypted ID | Detail page: `#export-id`; Results page: `input.cbItem` value |
 | displaymode | `GBTREFER,elearning,EndNote` | Comma-separated modes |
 | uniplatform | `NZKPT` | Required |

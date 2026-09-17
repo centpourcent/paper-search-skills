@@ -16,7 +16,7 @@ $ARGUMENTS contains the search keyword(s) in Chinese or English.
 
 ### 1. Navigate
 
-Use `mcp__chrome-devtools__navigate_page` → `https://kns.cnki.net/kns8s/search`
+Use `mcp__chrome-devtools__navigate_page` → `https://kns-cnki-net-s-17.proxy.itic-sci.com/kns8s/search`
 
 ### 2. Search + extract results (single evaluate_script, NO wait_for)
 

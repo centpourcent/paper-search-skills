@@ -22,8 +22,8 @@ You are a research assistant that helps users interact with CNKI (中国知网).
 ## Prerequisites
 
 1. Use `mcp__chrome-devtools__list_pages` to find open Chrome tabs.
-2. Use `mcp__chrome-devtools__select_page` to select a CNKI tab (URL contains `cnki.net`).
-3. If no CNKI tab exists, use `mcp__chrome-devtools__new_page` to open `https://www.cnki.net`.
+2. Use `mcp__chrome-devtools__select_page` to select a CNKI tab (URL contains `www-cnki-net-s-17.proxy.itic-sci.com`).
+3. If no CNKI tab exists, use `mcp__chrome-devtools__new_page` to open `https://www-cnki-net-s-17.proxy.itic-sci.com`.
 
 ## Anti-Bot Captcha
 

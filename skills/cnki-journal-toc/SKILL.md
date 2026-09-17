@@ -25,7 +25,7 @@ Examples:
 
 ### 1. Navigate to journal detail page
 
-If not already on a journal detail page (`navi.cnki.net/knavi/detail`):
+If not already on a journal detail page (`navi-cnki-net-s-17.proxy.itic-sci.com/knavi/detail`):
 - Use `cnki-journal-search` to find the journal
 - Use `mcp__chrome-devtools__list_pages` + `mcp__chrome-devtools__select_page` to switch to the journal detail tab (opens in new tab)
 
@@ -114,7 +114,7 @@ If user requested download, or asks for "原版目录":
 **Method A — Click "原版目录浏览" to open reader, then download:**
 
 1. Find the `link` with text "原版目录浏览" in the snapshot (class `btn-preview`)
-2. Click it — this opens a new tab with the reader page (`kns.cnki.net/reader/report`)
+2. Click it — this opens a new tab with the reader page (`kns-cnki-net-s-17.proxy.itic-sci.com/reader/report`)
 3. Use `mcp__chrome-devtools__list_pages` to find the new reader tab
 4. Use `mcp__chrome-devtools__select_page` to switch to it
 5. Use `mcp__chrome-devtools__wait_for` with text `["下载"]`
@@ -123,7 +123,7 @@ If user requested download, or asks for "原版目录":
 
 **Method B — Direct download from reader page:**
 
-If already on a reader page (`kns.cnki.net/reader/report`):
+If already on a reader page (`kns-cnki-net-s-17.proxy.itic-sci.com/reader/report`):
 1. Take snapshot
 2. Find `link` with text "下载"
 3. Click it
@@ -154,15 +154,15 @@ After clicking, inform the user:
 | Paper authors | `dd.row span.author` | semicolon-separated |
 | Paper page range | `dd.row span.company` | class is "company" but holds page range |
 | Paper ID | `dd.row b[name="encrypt"]` | id like "JSJX202512001" |
-| 原版目录浏览 | `a.btn-preview:not(.btn-back)` | href to `bar.cnki.net/bar/download/order` |
+| 原版目录浏览 | `a.btn-preview:not(.btn-back)` | href to `bar-cnki-net-s-17.proxy.itic-sci.com/bar/download/order` |
 | 返回 | `a.btn-preview.btn-back` | |
 
-### Reader Page (kns.cnki.net/reader/report)
+### Reader Page (kns-cnki-net-s-17.proxy.itic-sci.com/reader/report)
 
 | Element | Pattern |
 |---------|--------|
 | Page title | `RootWebArea "期刊原版目录"` |
-| Download button | `link` text "下载", URL to `bar.cnki.net/bar/download/order` |
+| Download button | `link` text "下载", URL to `bar-cnki-net-s-17.proxy.itic-sci.com/bar/download/order` |
 | Current page | `textbox` value (page number) |
 | Total pages | `StaticText` (e.g., "4") |
 | Navigation | `generic` description "上一页" / "下一页" |

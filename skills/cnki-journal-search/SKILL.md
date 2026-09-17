@@ -14,7 +14,7 @@ argument-hint: "[journal name or ISSN or CN number]"
 
 ### 1. Navigate
 
-Use `mcp__chrome-devtools__navigate_page` → `https://navi.cnki.net/knavi`
+Use `mcp__chrome-devtools__navigate_page` → `https://navi-cnki-net-s-17.proxy.itic-sci.com/knavi`
 
 ### 2. Search + extract results (single evaluate_script, NO wait_for)
 
