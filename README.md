@@ -38,7 +38,7 @@ claude mcp add chrome-devtools -- npx -y chrome-devtools-mcp@latest
 #### 2. Install the plugin
 
 ```bash
-git clone https://github.com/Teller-Lu/paper-search-skills.git
+git clone https://github.com/centpourcent/paper-search-skills.git
 cd paper-search-skills
 cp -r skills/ agents/ .claude/
 ```
@@ -46,7 +46,7 @@ cp -r skills/ agents/ .claude/
 Or add to an existing project:
 
 ```bash
-git clone https://github.com/Teller-Lu/paper-search-skills.git /tmp/paper-search-skills
+git clone https://github.com/centpourcent/paper-search-skills.git /tmp/paper-search-skills
 cp -r /tmp/paper-search-skills/skills/ your-project/.claude/skills/
 cp -r /tmp/paper-search-skills/agents/ your-project/.claude/agents/
 ```
@@ -227,7 +227,7 @@ claude mcp add chrome-devtools -- npx -y chrome-devtools-mcp@latest
 #### 2. 安装本插件
 
 ```bash
-git clone https://github.com/Teller-Lu/paper-search-skills.git
+git clone https://github.com/centpourcent/paper-search-skills.git
 cd paper-search-skills
 cp -r skills/ agents/ .claude/
 ```
@@ -235,7 +235,7 @@ cp -r skills/ agents/ .claude/
 或添加到已有项目：
 
 ```bash
-git clone https://github.com/Teller-Lu/paper-search-skills.git /tmp/paper-search-skills
+git clone https://github.com/centpourcent/paper-search-skills.git /tmp/paper-search-skills
 cp -r /tmp/paper-search-skills/skills/ your-project/.claude/skills/
 cp -r /tmp/paper-search-skills/agents/ your-project/.claude/agents/
 ```
